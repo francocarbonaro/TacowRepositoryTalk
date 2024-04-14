@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330B9D742BCC67590062B11C /* TacowRepositoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D732BCC67590062B11C /* TacowRepositoryApp.swift */; };
+		330B9D762BCC67590062B11C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D752BCC67590062B11C /* ContentView.swift */; };
+		330B9D782BCC675D0062B11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330B9D772BCC675D0062B11C /* Assets.xcassets */; };
+		330B9D7C2BCC675D0062B11C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330B9D7B2BCC675D0062B11C /* Preview Assets.xcassets */; };
+		330B9D862BCC675D0062B11C /* TacowRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D852BCC675D0062B11C /* TacowRepositoryTests.swift */; };
+		330B9D902BCC675D0062B11C /* TacowRepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D8F2BCC675D0062B11C /* TacowRepositoryUITests.swift */; };
+		330B9D922BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D912BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330B9D822BCC675D0062B11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330B9D682BCC67590062B11C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330B9D6F2BCC67590062B11C;
+			remoteInfo = TacowRepository;
+		};
+		330B9D8C2BCC675D0062B11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330B9D682BCC67590062B11C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330B9D6F2BCC67590062B11C;
+			remoteInfo = TacowRepository;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330B9D702BCC67590062B11C /* TacowRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacowRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330B9D732BCC67590062B11C /* TacowRepositoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacowRepositoryApp.swift; sourceTree = "<group>"; };
+		330B9D752BCC67590062B11C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		330B9D772BCC675D0062B11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330B9D792BCC675D0062B11C /* TacowRepository.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TacowRepository.entitlements; sourceTree = "<group>"; };
+		330B9D7B2BCC675D0062B11C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		330B9D812BCC675D0062B11C /* TacowRepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacowRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330B9D852BCC675D0062B11C /* TacowRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacowRepositoryTests.swift; sourceTree = "<group>"; };
+		330B9D8B2BCC675D0062B11C /* TacowRepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacowRepositoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330B9D8F2BCC675D0062B11C /* TacowRepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacowRepositoryUITests.swift; sourceTree = "<group>"; };
+		330B9D912BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacowRepositoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330B9D6D2BCC67590062B11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330B9D7E2BCC675D0062B11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330B9D882BCC675D0062B11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330B9D672BCC67590062B11C = {
+			isa = PBXGroup;
+			children = (
+				330B9D722BCC67590062B11C /* TacowRepository */,
+				330B9D842BCC675D0062B11C /* TacowRepositoryTests */,
+				330B9D8E2BCC675D0062B11C /* TacowRepositoryUITests */,
+				330B9D712BCC67590062B11C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		330B9D712BCC67590062B11C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D702BCC67590062B11C /* TacowRepository.app */,
+				330B9D812BCC675D0062B11C /* TacowRepositoryTests.xctest */,
+				330B9D8B2BCC675D0062B11C /* TacowRepositoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330B9D722BCC67590062B11C /* TacowRepository */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D732BCC67590062B11C /* TacowRepositoryApp.swift */,
+				330B9D752BCC67590062B11C /* ContentView.swift */,
+				330B9D772BCC675D0062B11C /* Assets.xcassets */,
+				330B9D792BCC675D0062B11C /* TacowRepository.entitlements */,
+				330B9D7A2BCC675D0062B11C /* Preview Content */,
+			);
+			path = TacowRepository;
+			sourceTree = "<group>";
+		};
+		330B9D7A2BCC675D0062B11C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D7B2BCC675D0062B11C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		330B9D842BCC675D0062B11C /* TacowRepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D852BCC675D0062B11C /* TacowRepositoryTests.swift */,
+			);
+			path = TacowRepositoryTests;
+			sourceTree = "<group>";
+		};
+		330B9D8E2BCC675D0062B11C /* TacowRepositoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D8F2BCC675D0062B11C /* TacowRepositoryUITests.swift */,
+				330B9D912BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift */,
+			);
+			path = TacowRepositoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330B9D6F2BCC67590062B11C /* TacowRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330B9D952BCC675D0062B11C /* Build configuration list for PBXNativeTarget "TacowRepository" */;
+			buildPhases = (
+				330B9D6C2BCC67590062B11C /* Sources */,
+				330B9D6D2BCC67590062B11C /* Frameworks */,
+				330B9D6E2BCC67590062B11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacowRepository;
+			productName = TacowRepository;
+			productReference = 330B9D702BCC67590062B11C /* TacowRepository.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330B9D802BCC675D0062B11C /* TacowRepositoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330B9D982BCC675D0062B11C /* Build configuration list for PBXNativeTarget "TacowRepositoryTests" */;
+			buildPhases = (
+				330B9D7D2BCC675D0062B11C /* Sources */,
+				330B9D7E2BCC675D0062B11C /* Frameworks */,
+				330B9D7F2BCC675D0062B11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330B9D832BCC675D0062B11C /* PBXTargetDependency */,
+			);
+			name = TacowRepositoryTests;
+			productName = TacowRepositoryTests;
+			productReference = 330B9D812BCC675D0062B11C /* TacowRepositoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330B9D8A2BCC675D0062B11C /* TacowRepositoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330B9D9B2BCC675D0062B11C /* Build configuration list for PBXNativeTarget "TacowRepositoryUITests" */;
+			buildPhases = (
+				330B9D872BCC675D0062B11C /* Sources */,
+				330B9D882BCC675D0062B11C /* Frameworks */,
+				330B9D892BCC675D0062B11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330B9D8D2BCC675D0062B11C /* PBXTargetDependency */,
+			);
+			name = TacowRepositoryUITests;
+			productName = TacowRepositoryUITests;
+			productReference = 330B9D8B2BCC675D0062B11C /* TacowRepositoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330B9D682BCC67590062B11C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					330B9D6F2BCC67590062B11C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					330B9D802BCC675D0062B11C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 330B9D6F2BCC67590062B11C;
+					};
+					330B9D8A2BCC675D0062B11C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 330B9D6F2BCC67590062B11C;
+					};
+				};
+			};
+			buildConfigurationList = 330B9D6B2BCC67590062B11C /* Build configuration list for PBXProject "TacowRepository" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330B9D672BCC67590062B11C;
+			productRefGroup = 330B9D712BCC67590062B11C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330B9D6F2BCC67590062B11C /* TacowRepository */,
+				330B9D802BCC675D0062B11C /* TacowRepositoryTests */,
+				330B9D8A2BCC675D0062B11C /* TacowRepositoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330B9D6E2BCC67590062B11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330B9D7C2BCC675D0062B11C /* Preview Assets.xcassets in Resources */,
+				330B9D782BCC675D0062B11C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330B9D7F2BCC675D0062B11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330B9D892BCC675D0062B11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330B9D6C2BCC67590062B11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330B9D762BCC67590062B11C /* ContentView.swift in Sources */,
+				330B9D742BCC67590062B11C /* TacowRepositoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330B9D7D2BCC675D0062B11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330B9D862BCC675D0062B11C /* TacowRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330B9D872BCC675D0062B11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330B9D902BCC675D0062B11C /* TacowRepositoryUITests.swift in Sources */,
+				330B9D922BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330B9D832BCC675D0062B11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330B9D6F2BCC67590062B11C /* TacowRepository */;
+			targetProxy = 330B9D822BCC675D0062B11C /* PBXContainerItemProxy */;
+		};
+		330B9D8D2BCC675D0062B11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330B9D6F2BCC67590062B11C /* TacowRepository */;
+			targetProxy = 330B9D8C2BCC675D0062B11C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		330B9D932BCC675D0062B11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		330B9D942BCC675D0062B11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		330B9D962BCC675D0062B11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TacowRepository/TacowRepository.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TacowRepository/Preview Content\"";
+				DEVELOPMENT_TEAM = AMZPZ87LQX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fcc.TacowRepository;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		330B9D972BCC675D0062B11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TacowRepository/TacowRepository.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TacowRepository/Preview Content\"";
+				DEVELOPMENT_TEAM = AMZPZ87LQX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fcc.TacowRepository;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		330B9D992BCC675D0062B11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMZPZ87LQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fcc.TacowRepositoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacowRepository.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TacowRepository";
+			};
+			name = Debug;
+		};
+		330B9D9A2BCC675D0062B11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMZPZ87LQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fcc.TacowRepositoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacowRepository.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TacowRepository";
+			};
+			name = Release;
+		};
+		330B9D9C2BCC675D0062B11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMZPZ87LQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fcc.TacowRepositoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TacowRepository;
+			};
+			name = Debug;
+		};
+		330B9D9D2BCC675D0062B11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMZPZ87LQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fcc.TacowRepositoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TacowRepository;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330B9D6B2BCC67590062B11C /* Build configuration list for PBXProject "TacowRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330B9D932BCC675D0062B11C /* Debug */,
+				330B9D942BCC675D0062B11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330B9D952BCC675D0062B11C /* Build configuration list for PBXNativeTarget "TacowRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330B9D962BCC675D0062B11C /* Debug */,
+				330B9D972BCC675D0062B11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330B9D982BCC675D0062B11C /* Build configuration list for PBXNativeTarget "TacowRepositoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330B9D992BCC675D0062B11C /* Debug */,
+				330B9D9A2BCC675D0062B11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330B9D9B2BCC675D0062B11C /* Build configuration list for PBXNativeTarget "TacowRepositoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330B9D9C2BCC675D0062B11C /* Debug */,
+				330B9D9D2BCC675D0062B11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330B9D682BCC67590062B11C /* Project object */;
+}
