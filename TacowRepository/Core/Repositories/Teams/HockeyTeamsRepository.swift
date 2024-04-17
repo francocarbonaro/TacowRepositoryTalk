@@ -8,6 +8,8 @@
 import Foundation
 
 struct HockeyTeamsRepository: TeamsRepository {
+	// this would be replace by a real implementation,
+	// to get data from an API or database for example
 	func getTeams(league: String) async -> [Team] {
 		[
 			Team(

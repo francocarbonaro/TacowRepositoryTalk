@@ -10,11 +10,16 @@ import MyAmazingList
 
 enum AmazingListRepositoryFactory {
 	static func makeRepository(item: String) -> AmazingListRepository {
-		// feature flag goes here
+		// your logic to decide which repository to use goes here
+		// you could check for feature flags for example
 		if item == "Teams" {
-			return TeamsAmazingListRepository()
+			return TeamsAmazingListRepository(
+				repository: BasketballTeamsRepository()
+			)
 		}
 
-		return PlayersAmazingListRepository()
+		return PlayersAmazingListRepository(
+			repository: BasketballTeamsRepository()
+		)
 	}
 }

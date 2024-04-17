@@ -9,7 +9,7 @@ import Foundation
 import MyAmazingList
 
 struct PlayersAmazingListRepository: AmazingListRepository {
-	let repository: TeamsRepository = BasketballTeamsRepository()
+	let repository: TeamsRepository
 
 	// MARK: AmazingListRepository
 
