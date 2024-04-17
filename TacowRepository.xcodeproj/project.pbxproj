@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,26 @@
 		330B9D862BCC675D0062B11C /* TacowRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D852BCC675D0062B11C /* TacowRepositoryTests.swift */; };
 		330B9D902BCC675D0062B11C /* TacowRepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D8F2BCC675D0062B11C /* TacowRepositoryUITests.swift */; };
 		330B9D922BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D912BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift */; };
+		330B9DA02BCC68420062B11C /* TeamsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9D9F2BCC68420062B11C /* TeamsListView.swift */; };
+		330B9DA32BCC6B220062B11C /* golden-state-players.json in Resources */ = {isa = PBXBuildFile; fileRef = 330B9DA22BCC6B220062B11C /* golden-state-players.json */; };
+		330B9DA52BCC6B580062B11C /* nba-teams.json in Resources */ = {isa = PBXBuildFile; fileRef = 330B9DA42BCC6B580062B11C /* nba-teams.json */; };
+		330B9DA92BCC6C380062B11C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DA82BCC6C380062B11C /* Team.swift */; };
+		330B9DAB2BCC6D500062B11C /* TeamsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DAA2BCC6D500062B11C /* TeamsListViewModel.swift */; };
+		330B9DAE2BCC72DE0062B11C /* TeamsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DAD2BCC72DE0062B11C /* TeamsRepository.swift */; };
+		330B9DB02BCC72ED0062B11C /* BasketballTeamsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DAF2BCC72ED0062B11C /* BasketballTeamsRepository.swift */; };
+		330B9DB22BCC73340062B11C /* HockeyTeamsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DB12BCC73340062B11C /* HockeyTeamsRepository.swift */; };
+		330B9DB92BCC785A0062B11C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DB82BCC785A0062B11C /* Player.swift */; };
+		330B9DBC2BCC78B40062B11C /* PlayersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DBB2BCC78B40062B11C /* PlayersRepository.swift */; };
+		330B9DCA2BCE0F3C0062B11C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DC92BCE0F3C0062B11C /* Event.swift */; };
+		330B9DD12BCE127A0062B11C /* CareerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DD02BCE127A0062B11C /* CareerStats.swift */; };
+		330B9DDD2BCE1FDD0062B11C /* TeamsAwesomeListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DDC2BCE1FDD0062B11C /* TeamsAwesomeListRepository.swift */; };
+		330B9DDF2BCE1FE80062B11C /* PlayersAwesomeListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DDE2BCE1FE80062B11C /* PlayersAwesomeListRepository.swift */; };
+		330B9DE62BCE23A40062B11C /* AwesomeListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B9DE52BCE23A40062B11C /* AwesomeListFactory.swift */; };
+		33ABA47D2BCEC0FA00965780 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ABA47C2BCEC0FA00965780 /* APIClient.swift */; };
+		33ABA4802BCECAD400965780 /* 01- before.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ABA47E2BCECAD400965780 /* 01- before.png */; };
+		33ABA4812BCECAD400965780 /* 02 - after.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ABA47F2BCECAD400965780 /* 02 - after.png */; };
+		33ABA4832BCED43C00965780 /* 03 - benefits.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ABA4822BCED43C00965780 /* 03 - benefits.png */; };
+		33ABA4892BCF5F9D00965780 /* MyAmazingList in Frameworks */ = {isa = PBXBuildFile; productRef = 33ABA4882BCF5F9D00965780 /* MyAmazingList */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +65,25 @@
 		330B9D8B2BCC675D0062B11C /* TacowRepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacowRepositoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330B9D8F2BCC675D0062B11C /* TacowRepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacowRepositoryUITests.swift; sourceTree = "<group>"; };
 		330B9D912BCC675D0062B11C /* TacowRepositoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacowRepositoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		330B9D9F2BCC68420062B11C /* TeamsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListView.swift; sourceTree = "<group>"; };
+		330B9DA22BCC6B220062B11C /* golden-state-players.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "golden-state-players.json"; sourceTree = "<group>"; };
+		330B9DA42BCC6B580062B11C /* nba-teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "nba-teams.json"; sourceTree = "<group>"; };
+		330B9DA82BCC6C380062B11C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		330B9DAA2BCC6D500062B11C /* TeamsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListViewModel.swift; sourceTree = "<group>"; };
+		330B9DAD2BCC72DE0062B11C /* TeamsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsRepository.swift; sourceTree = "<group>"; };
+		330B9DAF2BCC72ED0062B11C /* BasketballTeamsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTeamsRepository.swift; sourceTree = "<group>"; };
+		330B9DB12BCC73340062B11C /* HockeyTeamsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyTeamsRepository.swift; sourceTree = "<group>"; };
+		330B9DB82BCC785A0062B11C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		330B9DBB2BCC78B40062B11C /* PlayersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersRepository.swift; sourceTree = "<group>"; };
+		330B9DC92BCE0F3C0062B11C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		330B9DD02BCE127A0062B11C /* CareerStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerStats.swift; sourceTree = "<group>"; };
+		330B9DDC2BCE1FDD0062B11C /* TeamsAwesomeListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsAwesomeListRepository.swift; sourceTree = "<group>"; };
+		330B9DDE2BCE1FE80062B11C /* PlayersAwesomeListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersAwesomeListRepository.swift; sourceTree = "<group>"; };
+		330B9DE52BCE23A40062B11C /* AwesomeListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeListFactory.swift; sourceTree = "<group>"; };
+		33ABA47C2BCEC0FA00965780 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		33ABA47E2BCECAD400965780 /* 01- before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01- before.png"; sourceTree = "<group>"; };
+		33ABA47F2BCECAD400965780 /* 02 - after.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02 - after.png"; sourceTree = "<group>"; };
+		33ABA4822BCED43C00965780 /* 03 - benefits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03 - benefits.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ABA4892BCF5F9D00965780 /* MyAmazingList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +119,7 @@
 				330B9D842BCC675D0062B11C /* TacowRepositoryTests */,
 				330B9D8E2BCC675D0062B11C /* TacowRepositoryUITests */,
 				330B9D712BCC67590062B11C /* Products */,
+				330B9DD32BCE1B1C0062B11C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +136,14 @@
 		330B9D722BCC67590062B11C /* TacowRepository */ = {
 			isa = PBXGroup;
 			children = (
+				330B9DC72BCE0EFE0062B11C /* Core */,
+				330B9DC82BCE0F050062B11C /* Features */,
 				330B9D732BCC67590062B11C /* TacowRepositoryApp.swift */,
 				330B9D752BCC67590062B11C /* ContentView.swift */,
 				330B9D772BCC675D0062B11C /* Assets.xcassets */,
+				330B9DCB2BCE10400062B11C /* Diagrams */,
 				330B9D792BCC675D0062B11C /* TacowRepository.entitlements */,
+				330B9DA12BCC6B020062B11C /* Resources */,
 				330B9D7A2BCC675D0062B11C /* Preview Content */,
 			);
 			path = TacowRepository;
@@ -129,6 +174,148 @@
 			path = TacowRepositoryUITests;
 			sourceTree = "<group>";
 		};
+		330B9D9E2BCC68080062B11C /* Basic Teams List */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DB52BCC77C10062B11C /* View Models */,
+				330B9DB62BCC77CE0062B11C /* Views */,
+			);
+			path = "Basic Teams List";
+			sourceTree = "<group>";
+		};
+		330B9DA12BCC6B020062B11C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DA22BCC6B220062B11C /* golden-state-players.json */,
+				330B9DA42BCC6B580062B11C /* nba-teams.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		330B9DB52BCC77C10062B11C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DAA2BCC6D500062B11C /* TeamsListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		330B9DB62BCC77CE0062B11C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D9F2BCC68420062B11C /* TeamsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		330B9DC62BCE0EF70062B11C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DA82BCC6C380062B11C /* Team.swift */,
+				330B9DB82BCC785A0062B11C /* Player.swift */,
+				330B9DC92BCE0F3C0062B11C /* Event.swift */,
+				330B9DD02BCE127A0062B11C /* CareerStats.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		330B9DC72BCE0EFE0062B11C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				33ABA47B2BCEC0EF00965780 /* API Client */,
+				330B9DC62BCE0EF70062B11C /* Models */,
+				330B9DD62BCE1F290062B11C /* Repositories */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		330B9DC82BCE0F050062B11C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				330B9D9E2BCC68080062B11C /* Basic Teams List */,
+				330B9DDA2BCE1F860062B11C /* My Amazing List */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		330B9DCB2BCE10400062B11C /* Diagrams */ = {
+			isa = PBXGroup;
+			children = (
+				33ABA47E2BCECAD400965780 /* 01- before.png */,
+				33ABA47F2BCECAD400965780 /* 02 - after.png */,
+				33ABA4822BCED43C00965780 /* 03 - benefits.png */,
+			);
+			path = Diagrams;
+			sourceTree = "<group>";
+		};
+		330B9DD32BCE1B1C0062B11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		330B9DD62BCE1F290062B11C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DD72BCE1F340062B11C /* Players */,
+				330B9DD82BCE1F3F0062B11C /* Teams */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		330B9DD72BCE1F340062B11C /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DBB2BCC78B40062B11C /* PlayersRepository.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		330B9DD82BCE1F3F0062B11C /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DAD2BCC72DE0062B11C /* TeamsRepository.swift */,
+				330B9DAF2BCC72ED0062B11C /* BasketballTeamsRepository.swift */,
+				330B9DB12BCC73340062B11C /* HockeyTeamsRepository.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		330B9DDA2BCE1F860062B11C /* My Amazing List */ = {
+			isa = PBXGroup;
+			children = (
+				33ABA48A2BCF60E000965780 /* Factories */,
+				330B9DDB2BCE1FB90062B11C /* Repositories */,
+			);
+			path = "My Amazing List";
+			sourceTree = "<group>";
+		};
+		330B9DDB2BCE1FB90062B11C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DDC2BCE1FDD0062B11C /* TeamsAwesomeListRepository.swift */,
+				330B9DDE2BCE1FE80062B11C /* PlayersAwesomeListRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		33ABA47B2BCEC0EF00965780 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				33ABA47C2BCEC0FA00965780 /* APIClient.swift */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		33ABA48A2BCF60E000965780 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				330B9DE52BCE23A40062B11C /* AwesomeListFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +332,9 @@
 			dependencies = (
 			);
 			name = TacowRepository;
+			packageProductDependencies = (
+				33ABA4882BCF5F9D00965780 /* MyAmazingList */,
+			);
 			productName = TacowRepository;
 			productReference = 330B9D702BCC67590062B11C /* TacowRepository.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +407,9 @@
 				Base,
 			);
 			mainGroup = 330B9D672BCC67590062B11C;
+			packageReferences = (
+				33ABA4872BCF5F9D00965780 /* XCLocalSwiftPackageReference "MyAmazingList" */,
+			);
 			productRefGroup = 330B9D712BCC67590062B11C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +426,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330B9DA52BCC6B580062B11C /* nba-teams.json in Resources */,
 				330B9D7C2BCC675D0062B11C /* Preview Assets.xcassets in Resources */,
 				330B9D782BCC675D0062B11C /* Assets.xcassets in Resources */,
+				330B9DA32BCC6B220062B11C /* golden-state-players.json in Resources */,
+				33ABA4832BCED43C00965780 /* 03 - benefits.png in Resources */,
+				33ABA4802BCECAD400965780 /* 01- before.png in Resources */,
+				33ABA4812BCECAD400965780 /* 02 - after.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +457,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330B9DBC2BCC78B40062B11C /* PlayersRepository.swift in Sources */,
+				330B9DDF2BCE1FE80062B11C /* PlayersAwesomeListRepository.swift in Sources */,
+				330B9DA02BCC68420062B11C /* TeamsListView.swift in Sources */,
+				33ABA47D2BCEC0FA00965780 /* APIClient.swift in Sources */,
+				330B9DB22BCC73340062B11C /* HockeyTeamsRepository.swift in Sources */,
+				330B9DAB2BCC6D500062B11C /* TeamsListViewModel.swift in Sources */,
+				330B9DAE2BCC72DE0062B11C /* TeamsRepository.swift in Sources */,
+				330B9DE62BCE23A40062B11C /* AwesomeListFactory.swift in Sources */,
 				330B9D762BCC67590062B11C /* ContentView.swift in Sources */,
+				330B9DD12BCE127A0062B11C /* CareerStats.swift in Sources */,
+				330B9DA92BCC6C380062B11C /* Team.swift in Sources */,
+				330B9DB02BCC72ED0062B11C /* BasketballTeamsRepository.swift in Sources */,
+				330B9DB92BCC785A0062B11C /* Player.swift in Sources */,
+				330B9DCA2BCE0F3C0062B11C /* Event.swift in Sources */,
+				330B9DDD2BCE1FDD0062B11C /* TeamsAwesomeListRepository.swift in Sources */,
 				330B9D742BCC67590062B11C /* TacowRepositoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,6 +829,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		33ABA4872BCF5F9D00965780 /* XCLocalSwiftPackageReference "MyAmazingList" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyAmazingList;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33ABA4882BCF5F9D00965780 /* MyAmazingList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyAmazingList;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 330B9D682BCC67590062B11C /* Project object */;
 }
