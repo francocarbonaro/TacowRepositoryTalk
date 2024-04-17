@@ -143,7 +143,6 @@
 				330B9D732BCC67590062B11C /* TacowRepositoryApp.swift */,
 				330B9D752BCC67590062B11C /* ContentView.swift */,
 				330B9D772BCC675D0062B11C /* Assets.xcassets */,
-				330B9DCB2BCE10400062B11C /* Diagrams */,
 				330B9D792BCC675D0062B11C /* TacowRepository.entitlements */,
 				330B9DA12BCC6B020062B11C /* Resources */,
 				330B9D7A2BCC675D0062B11C /* Preview Content */,
@@ -188,6 +187,7 @@
 		330B9DA12BCC6B020062B11C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				330B9DCB2BCE10400062B11C /* Diagrams */,
 				330B9DA22BCC6B220062B11C /* golden-state-players.json */,
 				330B9DA42BCC6B580062B11C /* nba-teams.json */,
 			);
