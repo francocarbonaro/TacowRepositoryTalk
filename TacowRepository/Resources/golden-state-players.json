@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Stephen Curry",
+		"number": "30",
+		"position": "Guard"
+	},
+	{
+		"name": "Klay Thompson",
+		"number": "11",
+		"position": "Guard"
+	},
+	{
+		"name": "Draymond Green",
+		"number": "23",
+		"position": "Forward"
+	},
+	{
+		"name": "Kevon Looney",
+		"number": "5",
+		"position": "Center"
+	},
+	{
+		"name": "Andre Iguodala",
+		"number": "9",
+		"position": "Forward"
+	}
+]
